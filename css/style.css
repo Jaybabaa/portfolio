@@ -1,0 +1,306 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:cadetblue;
+}
+button:active{
+    color: yellowgreen;
+}
+
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: brown 2px 3px;
+    color: gold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-right a,.nav-left a{
+    color: gold;
+    text-decoration: none;
+}
+.nav-right{
+    padding-right: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+    
+}
+.nav-right a:hover,.nav-left a:hover{
+    color: lime;
+    text-decoration: overline;
+}
+.nav-right a:active,.nav-left a:active{
+    color: mediumpurple;
+}
+.nav-left{
+    padding-left: 30px;
+}
+.nav-left h1{
+    font-weight: 800;
+}
+
+.index-bio p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+    color:rgb(102, 255, 71);
+    position: relative;
+    top: 10px;
+    margin-left: 100px;
+}
+.index-bioo{
+    position: relative;
+    float:right;
+    right: 120px;
+    text-align: center;
+}
+
+.index-bioo p{
+    font-size: 25px;
+    color: rgb(124, 0, 128);
+
+}
+.index-bioo a{
+text-decoration: none;
+color:snow;
+font-weight: bold;
+}
+
+.index-bioo button{
+    border-radius: 7px 7px;
+    font-size: 20px;
+    background-color: green;
+}
+.index-summary span{
+    display: block;
+    position: relative;
+    top: 120px;
+    font-family: helvetica, Arial;
+    font-size: 30px;
+    right: -220px;
+}
+.index-summary{
+    width: 80%;
+}
+.query{
+    position: relative;
+    top: 170px;
+    right: -280px;
+    padding: 20px 20px;
+    border:solid 2px purple;
+    padding-bottom: 12px;
+    width: 52%;
+    background: orchid;
+    border-radius: 15px;
+    box-shadow: 3px 5px 5px orangered;
+}
+.query span{
+    display: block;
+    font-size: 25px;
+    color:black;
+}
+
+#buttom-btns button{
+    text-align: center;
+    font-size: 20px;
+    border-radius: 8px;
+    background-color: green;
+ 
+}
+#buttom-btns{
+    position: relative;
+    top: 210px;
+    text-align: center;
+    word-spacing: 100px;
+}
+#buttom-btns a{
+    text-decoration: none;
+    color: white;
+}
+
+.index-foot{
+    position: absolute;
+    bottom: 0;
+    border: rgb(94, 97, 90) 2px solid;
+    width :100%;
+    background-color:rgba(255, 102, 0, 0.349);
+}
+
+.index-foot footer{
+    text-align: center;
+    font-family: bold;
+    font-size: 17px;
+    color: yellow;
+    font-weight: 500;
+}
+.about-image{
+    text-align: center;
+}
+
+.about-image p{
+    font-size: 25px;
+}
+.about-image img{
+    height: 180px;
+    border-radius: 50px;
+}
+.about-image p{
+    color: rgb(197, 205, 92);
+}
+.about-bio{
+    position: relative;
+    float: left;
+    left: 390px;
+}
+.about-bio p{
+    font-size: 20px;
+}
+.listing{
+   position: relative;
+   top: 30px;
+   float: right;
+   width: 50%;
+   right: 300px;
+   border: solid 1px black;
+   background: orchid;
+   border-radius: 10px;
+   box-shadow: orangered 3px 4px 5px;
+}
+.listing h2{
+    text-align: center;
+}
+.listing ul{
+    position: relative;
+    float: right;
+    right: 140px;
+    font-size: 18px;
+    font-weight: 300;
+    font-family:Arial ;
+    padding: 8px 5px;
+}
+.about-btns{
+    text-align: center;
+    position: relative;
+    clear: right;
+    top: 50px;
+    word-spacing: 30px;
+}
+.about-btns a{
+    text-decoration: none;
+    color: white;
+}
+.about-btns button{
+    font-size: 20px;
+    background: green;
+    border-radius: 7px;
+}
+.about-foot{
+    position: absolute;
+    bottom: 0;
+    border: rgb(94, 97, 90) 2px solid;
+    width :100%;
+    background-color:rgba(255, 102, 0, 0.349);
+}
+.about-foot footer{
+    text-align: center;
+    color: yellow;
+    font-family: bold;
+    font-size: 17px;
+    font-weight: 400;
+}
+.services-option{
+    display:flex;
+    justify-content: space-around;
+    position: relative;
+    top: 150px;
+    font-size: 15px;
+}
+.services-foot{
+    position: absolute;
+    bottom: 0;
+    border: rgb(94, 97, 90) 2px solid;
+    width :100%;
+    background-color:rgba(255, 102, 0, 0.349);
+}
+.services-foot footer{
+    text-align: center;
+    color: yellow;
+    font-family: bold;
+    font-size: 17px;
+    font-weight: 400;
+}
+.services-btns{
+    position: relative;
+    top: 250px;
+    text-align: center;
+}
+.services-btns a{
+    text-decoration: none;
+    color: white;
+}
+.services-btns button{
+    background: green;
+    font-size: 20px;
+    border-radius: 7px;
+}
+.c-us{
+    text-align: center;
+    position: relative;
+    color: darkblue;
+    top: 120px;
+}
+.contact-row{
+    display: flex;
+    border: purple 1px solid;
+    background: orchid;
+    box-shadow: orangered 3px 4px 5px;
+    padding-top: 50px;
+    padding-left: 25px;
+    height: 200px;
+    border-radius: 20px;
+    text-align: center;
+    float: right;
+    right: 150px;
+    position: relative;
+    top: 150px;
+    font-size: 15px;
+}
+.contact-col p{
+    font-size: large;
+}
+.contact-col a{
+   text-decoration: none;
+}
+.contact-col a:hover{
+    color: white;
+}
+.contact-col{
+    width:  50%;
+}
+.contact-remark{
+    position: relative;
+    top: 350px;
+    text-align: center;
+    float: left;
+    left: 600px;
+    color: darkblue;
+    font-size: 30px;
+}
+.contact-foot{
+    position: absolute;
+    bottom: 0;
+    border: rgb(94, 97, 90) 2px solid;
+    width :100%;
+    background-color:rgba(255, 102, 0, 0.349);
+}
+.contact-foot footer{
+    text-align: center;
+    color: yellow;
+    font-family: bold;
+    font-size: 17px;
+    font-weight: 400;
+}
